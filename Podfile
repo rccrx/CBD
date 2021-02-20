@@ -6,6 +6,7 @@ target 'CBD' do
   use_frameworks!
   pod 'AFNetworking', '~> 3.2.1'
   pod 'SDWebImage', '~> 5.5.0'
+  pod 'RCUtility', '~> 0.0.1'
 
   # Pods for CBD
 
