@@ -3,7 +3,16 @@ platform :ios, '9.0'
 
 target 'CBD' do
   # Comment the next line if you don't want to use dynamic frameworks
-  use_frameworks!
+  # use_frameworks!
+  
+  # 业务模块
+  
+  
+  # 基础模块
+  pod 'RCAudioEngine', :path => './LocalPods/RCAudioEngine'
+  
+  
+  # 基础库
   pod 'AFNetworking', '~> 3.2.1'
   pod 'SDWebImage', '~> 5.5.0'
   pod 'RCUtility', '~> 0.0.1'
