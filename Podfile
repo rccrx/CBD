@@ -6,6 +6,7 @@ target 'CBD' do
   # use_frameworks!
   
   # 业务模块
+  pod 'RCLiveModule', :path => './LocalPods/RCLiveModule'
   
   
   # 基础模块
