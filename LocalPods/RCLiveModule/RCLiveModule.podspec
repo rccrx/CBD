@@ -10,6 +10,7 @@ Pod::Spec.new do |s|
   s.source_files = 'Classes/**/*'
   s.public_header_files = 'Classes/Public/**/*.h'
   s.prefix_header_file = false
+  s.swift_version = '5.1'
   
   # s.dependency 'AFNetworking', '~> 2.3'
 end

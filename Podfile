@@ -3,7 +3,7 @@ platform :ios, '9.0'
 
 target 'CBD' do
   # Comment the next line if you don't want to use dynamic frameworks
-  # use_frameworks!
+  use_frameworks! :linkage => :static
   
   # 业务模块
   pod 'RCLiveModule', :path => './LocalPods/RCLiveModule'
