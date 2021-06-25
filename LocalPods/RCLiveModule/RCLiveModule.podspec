@@ -12,5 +12,5 @@ Pod::Spec.new do |s|
   s.prefix_header_file = false
   s.swift_version = '5.1'
   
-  # s.dependency 'AFNetworking', '~> 2.3'
+   s.dependency 'SDWebImage', '~> 5.5.0'
 end
