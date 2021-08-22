@@ -15,6 +15,7 @@ PODS:
   - AFNetworking/UIKit (3.2.1):
     - AFNetworking/NSURLSession
   - RCAudioEngine (0.0.1)
+  - RCCustomView (0.1.0)
   - RCLiveModule (0.1.0):
     - SDWebImage (~> 5.5.0)
   - RCUtility (0.0.1)
@@ -25,6 +26,7 @@ PODS:
 DEPENDENCIES:
   - AFNetworking (~> 3.2.1)
   - RCAudioEngine (from `./LocalPods/RCAudioEngine`)
+  - RCCustomView (from `./LocalPods/RCCustomView`)
   - RCLiveModule (from `./LocalPods/RCLiveModule`)
   - RCUtility (~> 0.0.1)
   - SDWebImage (~> 5.5.0)
@@ -38,16 +40,19 @@ SPEC REPOS:
 EXTERNAL SOURCES:
   RCAudioEngine:
     :path: "./LocalPods/RCAudioEngine"
+  RCCustomView:
+    :path: "./LocalPods/RCCustomView"
   RCLiveModule:
     :path: "./LocalPods/RCLiveModule"
 
 SPEC CHECKSUMS:
   AFNetworking: b6f891fdfaed196b46c7a83cf209e09697b94057
   RCAudioEngine: 74f6f3c70088b00b9bbbd1c541836852eb43154a
+  RCCustomView: c07f5abd3398771c6b82fe5ccd63ef675ce3a13a
   RCLiveModule: bf4390360989b5bf8b7b637e2572ec9d516acc94
   RCUtility: 668b0b33d687dca5e51eefb98aca68c8d342f06f
   SDWebImage: 4d5c027c935438f341ed33dbac53ff9f479922ca
 
-PODFILE CHECKSUM: f46d2971cd5bb597140c3cbc5896be5dda4f1fb8
+PODFILE CHECKSUM: 6a6e9dc64eaf81d4f74bd3366ccc3b6132c4cdd9
 
 COCOAPODS: 1.7.2

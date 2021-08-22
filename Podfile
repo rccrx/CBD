@@ -11,6 +11,7 @@ target 'CBD' do
   
   # 基础模块
   pod 'RCAudioEngine', :path => './LocalPods/RCAudioEngine'
+  pod 'RCCustomView', :path => './LocalPods/RCCustomView'
   
   
   # 基础库
